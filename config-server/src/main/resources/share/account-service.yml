@@ -1,0 +1,53 @@
+spring:
+  datasource:
+    url: jdbc:mysql://localhost:3306/account?allowPublicKeyRetrieval=true&useSSL=false
+    username: admin
+    password: 123456
+    driver-class-name: com.mysql.cj.jdbc.Driver
+
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.MySQL8Dialect
+  cloud:
+    openfeign:
+      client:
+        config:
+          default:
+            connect-timeout: 5000
+            read-timeout: 5000
+      micrometer:
+        enabled: true
+      circuitbreaker:
+        enabled: true
+    config:
+      fail-fast: true
+
+  kafka:
+    bootstrap-servers: localhost:19092,localhost:19093,localhost:19094
+    producer:
+      value-serializer: org.springframework.kafka.support.serializer.JsonSerializer
+      acks: -1
+      retries: 1
+      properties:
+        enabled.idempotence: true
+        max.in.flight.requests.per.connection: 5
+
+  devtools:
+    restart:
+      enabled: true
+      additional-paths: src/main/java
+    livereload:
+      enabled: true
+
+server:
+  port: 8090
+
+resilience4j:
+  timelimiter:
+    configs:
+      default:
+        timeoutDuration: 5s

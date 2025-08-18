@@ -1,0 +1,25 @@
+server:
+  port: 8881
+
+spring:
+  boot:
+    admin:
+      notify:
+        mail:
+          enabled: true
+          to: vhai31102002@gmail.com
+
+  mail:
+    host: smtp.gmail.com
+    port: 587
+    username: vhai31102002@gmail.com
+    password: mzxscbwwwptjintm
+    default-encoding: UTF-8
+    protocol: smtp
+    test-connection: false
+    properties:
+      mail:
+        smtp:
+          auth: true
+          starttls:
+            enable: true
