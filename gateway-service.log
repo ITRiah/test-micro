@@ -1,0 +1,219 @@
+2025-08-11T11:01:55.017+07:00  INFO 22864 --- [gateway-service] [restartedMain] com.lgcns.gateway.GatewayApplication     : Starting GatewayApplication using Java 24.0.1 with PID 22864 (C:\abc\gateway\target\classes started by 63200736 in C:\abc)
+2025-08-11T11:01:55.021+07:00  INFO 22864 --- [gateway-service] [restartedMain] com.lgcns.gateway.GatewayApplication     : No active profile set, falling back to 1 default profile: "default"
+2025-08-11T11:01:55.221+07:00  INFO 22864 --- [gateway-service] [restartedMain] o.s.c.c.c.ConfigServerConfigDataLoader   : Fetching config from server at : http://localhost:8888
+2025-08-11T11:01:55.222+07:00  INFO 22864 --- [gateway-service] [restartedMain] o.s.c.c.c.ConfigServerConfigDataLoader   : Located environment: name=gateway-service, profiles=[default], label=null, version=null, state=null
+2025-08-11T11:01:55.521+07:00  INFO 22864 --- [gateway-service] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2025-08-11T11:01:55.522+07:00  INFO 22864 --- [gateway-service] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2025-08-11T11:01:58.199+07:00  INFO 22864 --- [gateway-service] [restartedMain] o.s.cloud.context.scope.GenericScope     : BeanFactory id=1502cc3b-b95b-3d1d-adc5-d781715ac10e
+2025-08-11T11:01:59.699+07:00  WARN 22864 --- [gateway-service] [restartedMain] GatewayClassPathWarningAutoConfiguration : 
+
+**********************************************************
+
+The artifact spring-cloud-gateway-server is deprecated. It will be removed in the next major release. Please add spring-cloud-gateway-server-webflux dependency.
+
+**********************************************************
+
+
+2025-08-11T11:02:00.366+07:00  INFO 22864 --- [gateway-service] [restartedMain] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [After]
+2025-08-11T11:02:00.367+07:00  INFO 22864 --- [gateway-service] [restartedMain] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Before]
+2025-08-11T11:02:00.367+07:00  INFO 22864 --- [gateway-service] [restartedMain] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Between]
+2025-08-11T11:02:00.367+07:00  INFO 22864 --- [gateway-service] [restartedMain] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Cookie]
+2025-08-11T11:02:00.367+07:00  INFO 22864 --- [gateway-service] [restartedMain] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Header]
+2025-08-11T11:02:00.367+07:00  INFO 22864 --- [gateway-service] [restartedMain] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Host]
+2025-08-11T11:02:00.367+07:00  INFO 22864 --- [gateway-service] [restartedMain] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Method]
+2025-08-11T11:02:00.368+07:00  INFO 22864 --- [gateway-service] [restartedMain] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Path]
+2025-08-11T11:02:00.368+07:00  INFO 22864 --- [gateway-service] [restartedMain] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Query]
+2025-08-11T11:02:00.369+07:00  INFO 22864 --- [gateway-service] [restartedMain] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [ReadBody]
+2025-08-11T11:02:00.369+07:00  INFO 22864 --- [gateway-service] [restartedMain] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [RemoteAddr]
+2025-08-11T11:02:00.369+07:00  INFO 22864 --- [gateway-service] [restartedMain] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [XForwardedRemoteAddr]
+2025-08-11T11:02:00.370+07:00  INFO 22864 --- [gateway-service] [restartedMain] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Weight]
+2025-08-11T11:02:00.370+07:00  INFO 22864 --- [gateway-service] [restartedMain] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [CloudFoundryRouteService]
+2025-08-11T11:02:01.153+07:00  WARN 22864 --- [gateway-service] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : Unable to start LiveReload server
+2025-08-11T11:02:01.211+07:00  INFO 22864 --- [gateway-service] [restartedMain] DiscoveryClientOptionalArgsConfiguration : Eureka HTTP Client uses RestTemplate.
+2025-08-11T11:02:01.250+07:00  WARN 22864 --- [gateway-service] [restartedMain] s.w.s.StarterDeprecatedAutoConfiguration : 
+
+**********************************************************
+
+spring-cloud-starter-gateway is deprecated. It will be removed in the next major release. Please use spring-cloud-starter-gateway-server-webflux instead.
+
+**********************************************************
+
+
+2025-08-11T11:02:01.263+07:00  WARN 22864 --- [gateway-service] [restartedMain] iguration$LoadBalancerCaffeineWarnLogger : Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2025-08-11T11:02:01.353+07:00  INFO 22864 --- [gateway-service] [restartedMain] o.s.c.n.eureka.InstanceInfoFactory       : Setting initial instance status as: STARTING
+2025-08-11T11:02:01.400+07:00  INFO 22864 --- [gateway-service] [restartedMain] com.netflix.discovery.DiscoveryClient    : Initializing Eureka in region us-east-1
+2025-08-11T11:02:01.410+07:00  INFO 22864 --- [gateway-service] [restartedMain] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-08-11T11:02:01.428+07:00  INFO 22864 --- [gateway-service] [restartedMain] com.netflix.discovery.DiscoveryClient    : Disable delta property : false
+2025-08-11T11:02:01.428+07:00  INFO 22864 --- [gateway-service] [restartedMain] com.netflix.discovery.DiscoveryClient    : Single vip registry refresh property : null
+2025-08-11T11:02:01.428+07:00  INFO 22864 --- [gateway-service] [restartedMain] com.netflix.discovery.DiscoveryClient    : Force full registry fetch : false
+2025-08-11T11:02:01.428+07:00  INFO 22864 --- [gateway-service] [restartedMain] com.netflix.discovery.DiscoveryClient    : Application is null : false
+2025-08-11T11:02:01.428+07:00  INFO 22864 --- [gateway-service] [restartedMain] com.netflix.discovery.DiscoveryClient    : Registered Applications size is zero : true
+2025-08-11T11:02:01.428+07:00  INFO 22864 --- [gateway-service] [restartedMain] com.netflix.discovery.DiscoveryClient    : Application version is -1: true
+2025-08-11T11:02:01.429+07:00  INFO 22864 --- [gateway-service] [restartedMain] com.netflix.discovery.DiscoveryClient    : Getting all instance registry info from the eureka server
+2025-08-11T11:02:02.069+07:00  INFO 22864 --- [gateway-service] [restartedMain] com.netflix.discovery.DiscoveryClient    : The response status is 200
+2025-08-11T11:02:02.072+07:00  INFO 22864 --- [gateway-service] [restartedMain] com.netflix.discovery.DiscoveryClient    : Starting heartbeat executor: renew interval is: 30
+2025-08-11T11:02:02.075+07:00  INFO 22864 --- [gateway-service] [restartedMain] c.n.discovery.InstanceInfoReplicator     : InstanceInfoReplicator onDemand update allowed rate per min is 4
+2025-08-11T11:02:02.079+07:00  INFO 22864 --- [gateway-service] [restartedMain] com.netflix.discovery.DiscoveryClient    : Discovery Client initialized at timestamp 1754884922077 with initial instances count: 0
+2025-08-11T11:02:02.084+07:00  INFO 22864 --- [gateway-service] [restartedMain] o.s.c.n.e.s.EurekaServiceRegistry        : Registering application GATEWAY-SERVICE with eureka with status UP
+2025-08-11T11:02:02.084+07:00  INFO 22864 --- [gateway-service] [restartedMain] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1754884922084, current=UP, previous=STARTING]
+2025-08-11T11:02:02.088+07:00  INFO 22864 --- [gateway-service] [DiscoveryClient-InstanceInfoReplicator-%d] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_GATEWAY-SERVICE/LCSKVM09892.corp.lgcns.com:gateway-service:8080: registering service...
+2025-08-11T11:02:02.164+07:00  INFO 22864 --- [gateway-service] [DiscoveryClient-InstanceInfoReplicator-%d] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_GATEWAY-SERVICE/LCSKVM09892.corp.lgcns.com:gateway-service:8080 - registration status: 204
+2025-08-11T11:02:02.450+07:00  INFO 22864 --- [gateway-service] [restartedMain] o.s.b.web.embedded.netty.NettyWebServer  : Netty started on port 8080 (http)
+2025-08-11T11:02:02.452+07:00  INFO 22864 --- [gateway-service] [restartedMain] .s.c.n.e.s.EurekaAutoServiceRegistration : Updating port to 8080
+2025-08-11T11:02:02.476+07:00  INFO 22864 --- [gateway-service] [restartedMain] com.lgcns.gateway.GatewayApplication     : Started GatewayApplication in 9.798 seconds (process running for 12.58)
+2025-08-11T11:02:13.388+07:00  INFO 22864 --- [gateway-service] [SpringApplicationShutdownHook] o.s.c.n.e.s.EurekaServiceRegistry        : Unregistering application GATEWAY-SERVICE with eureka with status DOWN
+2025-08-11T11:02:13.388+07:00  INFO 22864 --- [gateway-service] [SpringApplicationShutdownHook] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1754884933388, current=DOWN, previous=UP]
+2025-08-11T11:02:13.388+07:00  INFO 22864 --- [gateway-service] [DiscoveryClient-InstanceInfoReplicator-%d] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_GATEWAY-SERVICE/LCSKVM09892.corp.lgcns.com:gateway-service:8080: registering service...
+2025-08-11T11:02:13.393+07:00  INFO 22864 --- [gateway-service] [SpringApplicationShutdownHook] o.s.b.w.embedded.netty.GracefulShutdown  : Commencing graceful shutdown. Waiting for active requests to complete
+2025-08-11T11:02:13.398+07:00  INFO 22864 --- [gateway-service] [netty-shutdown] o.s.b.w.embedded.netty.GracefulShutdown  : Graceful shutdown complete
+2025-08-11T11:02:13.399+07:00  INFO 22864 --- [gateway-service] [DiscoveryClient-InstanceInfoReplicator-%d] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_GATEWAY-SERVICE/LCSKVM09892.corp.lgcns.com:gateway-service:8080 - registration status: 204
+2025-08-11T11:02:13.424+07:00  INFO 22864 --- [gateway-service] [SpringApplicationShutdownHook] com.netflix.discovery.DiscoveryClient    : Shutting down DiscoveryClient ...
+2025-08-11T11:02:16.427+07:00  INFO 22864 --- [gateway-service] [SpringApplicationShutdownHook] com.netflix.discovery.DiscoveryClient    : Unregistering ...
+2025-08-11T11:02:16.436+07:00  INFO 22864 --- [gateway-service] [SpringApplicationShutdownHook] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_GATEWAY-SERVICE/LCSKVM09892.corp.lgcns.com:gateway-service:8080 - deregister  status: 200
+2025-08-11T11:02:16.436+07:00  INFO 22864 --- [gateway-service] [SpringApplicationShutdownHook] com.netflix.discovery.DiscoveryClient    : Completed shut down of DiscoveryClient
+2025-08-11T13:20:28.899+07:00  INFO 23064 --- [gateway-service] [restartedMain] com.lgcns.gateway.GatewayApplication     : Starting GatewayApplication using Java 24.0.1 with PID 23064 (C:\abc\gateway\target\classes started by 63200736 in C:\abc)
+2025-08-11T13:20:28.905+07:00  INFO 23064 --- [gateway-service] [restartedMain] com.lgcns.gateway.GatewayApplication     : No active profile set, falling back to 1 default profile: "default"
+2025-08-11T13:20:29.010+07:00  INFO 23064 --- [gateway-service] [restartedMain] o.s.c.c.c.ConfigServerConfigDataLoader   : Fetching config from server at : http://localhost:8888
+2025-08-11T13:20:29.011+07:00  INFO 23064 --- [gateway-service] [restartedMain] o.s.c.c.c.ConfigServerConfigDataLoader   : Located environment: name=gateway-service, profiles=[default], label=null, version=null, state=null
+2025-08-11T13:20:29.226+07:00  INFO 23064 --- [gateway-service] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2025-08-11T13:20:29.227+07:00  INFO 23064 --- [gateway-service] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2025-08-11T13:20:31.182+07:00  INFO 23064 --- [gateway-service] [restartedMain] o.s.cloud.context.scope.GenericScope     : BeanFactory id=1502cc3b-b95b-3d1d-adc5-d781715ac10e
+2025-08-11T13:20:32.381+07:00  WARN 23064 --- [gateway-service] [restartedMain] GatewayClassPathWarningAutoConfiguration : 
+
+**********************************************************
+
+The artifact spring-cloud-gateway-server is deprecated. It will be removed in the next major release. Please add spring-cloud-gateway-server-webflux dependency.
+
+**********************************************************
+
+
+2025-08-11T13:20:32.905+07:00  INFO 23064 --- [gateway-service] [restartedMain] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [After]
+2025-08-11T13:20:32.905+07:00  INFO 23064 --- [gateway-service] [restartedMain] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Before]
+2025-08-11T13:20:32.905+07:00  INFO 23064 --- [gateway-service] [restartedMain] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Between]
+2025-08-11T13:20:32.906+07:00  INFO 23064 --- [gateway-service] [restartedMain] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Cookie]
+2025-08-11T13:20:32.906+07:00  INFO 23064 --- [gateway-service] [restartedMain] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Header]
+2025-08-11T13:20:32.906+07:00  INFO 23064 --- [gateway-service] [restartedMain] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Host]
+2025-08-11T13:20:32.906+07:00  INFO 23064 --- [gateway-service] [restartedMain] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Method]
+2025-08-11T13:20:32.906+07:00  INFO 23064 --- [gateway-service] [restartedMain] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Path]
+2025-08-11T13:20:32.906+07:00  INFO 23064 --- [gateway-service] [restartedMain] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Query]
+2025-08-11T13:20:32.907+07:00  INFO 23064 --- [gateway-service] [restartedMain] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [ReadBody]
+2025-08-11T13:20:32.907+07:00  INFO 23064 --- [gateway-service] [restartedMain] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [RemoteAddr]
+2025-08-11T13:20:32.907+07:00  INFO 23064 --- [gateway-service] [restartedMain] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [XForwardedRemoteAddr]
+2025-08-11T13:20:32.907+07:00  INFO 23064 --- [gateway-service] [restartedMain] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Weight]
+2025-08-11T13:20:32.907+07:00  INFO 23064 --- [gateway-service] [restartedMain] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [CloudFoundryRouteService]
+2025-08-11T13:20:33.520+07:00  WARN 23064 --- [gateway-service] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : Unable to start LiveReload server
+2025-08-11T13:20:33.569+07:00  INFO 23064 --- [gateway-service] [restartedMain] DiscoveryClientOptionalArgsConfiguration : Eureka HTTP Client uses RestTemplate.
+2025-08-11T13:20:33.605+07:00  WARN 23064 --- [gateway-service] [restartedMain] s.w.s.StarterDeprecatedAutoConfiguration : 
+
+**********************************************************
+
+spring-cloud-starter-gateway is deprecated. It will be removed in the next major release. Please use spring-cloud-starter-gateway-server-webflux instead.
+
+**********************************************************
+
+
+2025-08-11T13:20:33.619+07:00  WARN 23064 --- [gateway-service] [restartedMain] iguration$LoadBalancerCaffeineWarnLogger : Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2025-08-11T13:20:33.711+07:00  INFO 23064 --- [gateway-service] [restartedMain] o.s.c.n.eureka.InstanceInfoFactory       : Setting initial instance status as: STARTING
+2025-08-11T13:20:33.756+07:00  INFO 23064 --- [gateway-service] [restartedMain] com.netflix.discovery.DiscoveryClient    : Initializing Eureka in region us-east-1
+2025-08-11T13:20:33.768+07:00  INFO 23064 --- [gateway-service] [restartedMain] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-08-11T13:20:33.786+07:00  INFO 23064 --- [gateway-service] [restartedMain] com.netflix.discovery.DiscoveryClient    : Disable delta property : false
+2025-08-11T13:20:33.786+07:00  INFO 23064 --- [gateway-service] [restartedMain] com.netflix.discovery.DiscoveryClient    : Single vip registry refresh property : null
+2025-08-11T13:20:33.787+07:00  INFO 23064 --- [gateway-service] [restartedMain] com.netflix.discovery.DiscoveryClient    : Force full registry fetch : false
+2025-08-11T13:20:33.787+07:00  INFO 23064 --- [gateway-service] [restartedMain] com.netflix.discovery.DiscoveryClient    : Application is null : false
+2025-08-11T13:20:33.787+07:00  INFO 23064 --- [gateway-service] [restartedMain] com.netflix.discovery.DiscoveryClient    : Registered Applications size is zero : true
+2025-08-11T13:20:33.787+07:00  INFO 23064 --- [gateway-service] [restartedMain] com.netflix.discovery.DiscoveryClient    : Application version is -1: true
+2025-08-11T13:20:33.787+07:00  INFO 23064 --- [gateway-service] [restartedMain] com.netflix.discovery.DiscoveryClient    : Getting all instance registry info from the eureka server
+2025-08-11T13:20:34.291+07:00  INFO 23064 --- [gateway-service] [restartedMain] com.netflix.discovery.DiscoveryClient    : The response status is 200
+2025-08-11T13:20:34.294+07:00  INFO 23064 --- [gateway-service] [restartedMain] com.netflix.discovery.DiscoveryClient    : Starting heartbeat executor: renew interval is: 30
+2025-08-11T13:20:34.297+07:00  INFO 23064 --- [gateway-service] [restartedMain] c.n.discovery.InstanceInfoReplicator     : InstanceInfoReplicator onDemand update allowed rate per min is 4
+2025-08-11T13:20:34.299+07:00  INFO 23064 --- [gateway-service] [restartedMain] com.netflix.discovery.DiscoveryClient    : Discovery Client initialized at timestamp 1754893234299 with initial instances count: 2
+2025-08-11T13:20:34.303+07:00  INFO 23064 --- [gateway-service] [restartedMain] o.s.c.n.e.s.EurekaServiceRegistry        : Registering application GATEWAY-SERVICE with eureka with status UP
+2025-08-11T13:20:34.304+07:00  INFO 23064 --- [gateway-service] [restartedMain] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1754893234304, current=UP, previous=STARTING]
+2025-08-11T13:20:34.307+07:00  INFO 23064 --- [gateway-service] [DiscoveryClient-InstanceInfoReplicator-%d] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_GATEWAY-SERVICE/LCSKVM09892.corp.lgcns.com:gateway-service:8080: registering service...
+2025-08-11T13:20:34.375+07:00  INFO 23064 --- [gateway-service] [DiscoveryClient-InstanceInfoReplicator-%d] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_GATEWAY-SERVICE/LCSKVM09892.corp.lgcns.com:gateway-service:8080 - registration status: 204
+2025-08-11T13:20:34.594+07:00  INFO 23064 --- [gateway-service] [restartedMain] o.s.b.web.embedded.netty.NettyWebServer  : Netty started on port 8080 (http)
+2025-08-11T13:20:34.596+07:00  INFO 23064 --- [gateway-service] [restartedMain] .s.c.n.e.s.EurekaAutoServiceRegistration : Updating port to 8080
+2025-08-11T13:20:34.616+07:00  INFO 23064 --- [gateway-service] [restartedMain] com.lgcns.gateway.GatewayApplication     : Started GatewayApplication in 7.626 seconds (process running for 10.393)
+2025-08-11T13:23:07.217+07:00  INFO 23064 --- [gateway-service] [SpringApplicationShutdownHook] o.s.c.n.e.s.EurekaServiceRegistry        : Unregistering application GATEWAY-SERVICE with eureka with status DOWN
+2025-08-11T13:23:07.218+07:00  INFO 23064 --- [gateway-service] [SpringApplicationShutdownHook] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1754893387218, current=DOWN, previous=UP]
+2025-08-11T13:23:07.218+07:00  INFO 23064 --- [gateway-service] [DiscoveryClient-InstanceInfoReplicator-%d] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_GATEWAY-SERVICE/LCSKVM09892.corp.lgcns.com:gateway-service:8080: registering service...
+2025-08-11T13:23:07.227+07:00  INFO 23064 --- [gateway-service] [SpringApplicationShutdownHook] o.s.b.w.embedded.netty.GracefulShutdown  : Commencing graceful shutdown. Waiting for active requests to complete
+2025-08-11T13:23:07.233+07:00  INFO 23064 --- [gateway-service] [DiscoveryClient-InstanceInfoReplicator-%d] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_GATEWAY-SERVICE/LCSKVM09892.corp.lgcns.com:gateway-service:8080 - registration status: 204
+2025-08-11T13:23:07.272+07:00  INFO 23064 --- [gateway-service] [netty-shutdown] o.s.b.w.embedded.netty.GracefulShutdown  : Graceful shutdown complete
+2025-08-11T13:23:07.344+07:00  INFO 23064 --- [gateway-service] [SpringApplicationShutdownHook] com.netflix.discovery.DiscoveryClient    : Shutting down DiscoveryClient ...
+2025-08-11T13:23:10.345+07:00  INFO 23064 --- [gateway-service] [SpringApplicationShutdownHook] com.netflix.discovery.DiscoveryClient    : Unregistering ...
+2025-08-11T13:23:10.354+07:00  INFO 23064 --- [gateway-service] [SpringApplicationShutdownHook] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_GATEWAY-SERVICE/LCSKVM09892.corp.lgcns.com:gateway-service:8080 - deregister  status: 200
+2025-08-11T13:23:10.354+07:00  INFO 23064 --- [gateway-service] [SpringApplicationShutdownHook] com.netflix.discovery.DiscoveryClient    : Completed shut down of DiscoveryClient
+2025-08-11T13:23:17.623+07:00  INFO 18848 --- [gateway-service] [restartedMain] com.lgcns.gateway.GatewayApplication     : Starting GatewayApplication using Java 24.0.1 with PID 18848 (C:\abc\gateway\target\classes started by 63200736 in C:\abc)
+2025-08-11T13:23:17.627+07:00  INFO 18848 --- [gateway-service] [restartedMain] com.lgcns.gateway.GatewayApplication     : No active profile set, falling back to 1 default profile: "default"
+2025-08-11T13:23:17.827+07:00  INFO 18848 --- [gateway-service] [restartedMain] o.s.c.c.c.ConfigServerConfigDataLoader   : Fetching config from server at : http://localhost:8888
+2025-08-11T13:23:17.829+07:00  INFO 18848 --- [gateway-service] [restartedMain] o.s.c.c.c.ConfigServerConfigDataLoader   : Located environment: name=gateway-service, profiles=[default], label=null, version=null, state=null
+2025-08-11T13:23:18.094+07:00  INFO 18848 --- [gateway-service] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2025-08-11T13:23:18.094+07:00  INFO 18848 --- [gateway-service] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2025-08-11T13:23:19.941+07:00  INFO 18848 --- [gateway-service] [restartedMain] o.s.cloud.context.scope.GenericScope     : BeanFactory id=1502cc3b-b95b-3d1d-adc5-d781715ac10e
+2025-08-11T13:23:20.990+07:00  WARN 18848 --- [gateway-service] [restartedMain] GatewayClassPathWarningAutoConfiguration : 
+
+**********************************************************
+
+The artifact spring-cloud-gateway-server is deprecated. It will be removed in the next major release. Please add spring-cloud-gateway-server-webflux dependency.
+
+**********************************************************
+
+
+2025-08-11T13:23:21.509+07:00  INFO 18848 --- [gateway-service] [restartedMain] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [After]
+2025-08-11T13:23:21.509+07:00  INFO 18848 --- [gateway-service] [restartedMain] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Before]
+2025-08-11T13:23:21.511+07:00  INFO 18848 --- [gateway-service] [restartedMain] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Between]
+2025-08-11T13:23:21.511+07:00  INFO 18848 --- [gateway-service] [restartedMain] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Cookie]
+2025-08-11T13:23:21.511+07:00  INFO 18848 --- [gateway-service] [restartedMain] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Header]
+2025-08-11T13:23:21.511+07:00  INFO 18848 --- [gateway-service] [restartedMain] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Host]
+2025-08-11T13:23:21.511+07:00  INFO 18848 --- [gateway-service] [restartedMain] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Method]
+2025-08-11T13:23:21.512+07:00  INFO 18848 --- [gateway-service] [restartedMain] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Path]
+2025-08-11T13:23:21.512+07:00  INFO 18848 --- [gateway-service] [restartedMain] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Query]
+2025-08-11T13:23:21.513+07:00  INFO 18848 --- [gateway-service] [restartedMain] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [ReadBody]
+2025-08-11T13:23:21.513+07:00  INFO 18848 --- [gateway-service] [restartedMain] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [RemoteAddr]
+2025-08-11T13:23:21.513+07:00  INFO 18848 --- [gateway-service] [restartedMain] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [XForwardedRemoteAddr]
+2025-08-11T13:23:21.513+07:00  INFO 18848 --- [gateway-service] [restartedMain] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Weight]
+2025-08-11T13:23:21.513+07:00  INFO 18848 --- [gateway-service] [restartedMain] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [CloudFoundryRouteService]
+2025-08-11T13:23:22.122+07:00  WARN 18848 --- [gateway-service] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : Unable to start LiveReload server
+2025-08-11T13:23:22.174+07:00  INFO 18848 --- [gateway-service] [restartedMain] DiscoveryClientOptionalArgsConfiguration : Eureka HTTP Client uses RestTemplate.
+2025-08-11T13:23:22.208+07:00  WARN 18848 --- [gateway-service] [restartedMain] s.w.s.StarterDeprecatedAutoConfiguration : 
+
+**********************************************************
+
+spring-cloud-starter-gateway is deprecated. It will be removed in the next major release. Please use spring-cloud-starter-gateway-server-webflux instead.
+
+**********************************************************
+
+
+2025-08-11T13:23:22.221+07:00  WARN 18848 --- [gateway-service] [restartedMain] iguration$LoadBalancerCaffeineWarnLogger : Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2025-08-11T13:23:22.313+07:00  INFO 18848 --- [gateway-service] [restartedMain] o.s.c.n.eureka.InstanceInfoFactory       : Setting initial instance status as: STARTING
+2025-08-11T13:23:22.362+07:00  INFO 18848 --- [gateway-service] [restartedMain] com.netflix.discovery.DiscoveryClient    : Initializing Eureka in region us-east-1
+2025-08-11T13:23:22.371+07:00  INFO 18848 --- [gateway-service] [restartedMain] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-08-11T13:23:22.392+07:00  INFO 18848 --- [gateway-service] [restartedMain] com.netflix.discovery.DiscoveryClient    : Disable delta property : false
+2025-08-11T13:23:22.393+07:00  INFO 18848 --- [gateway-service] [restartedMain] com.netflix.discovery.DiscoveryClient    : Single vip registry refresh property : null
+2025-08-11T13:23:22.393+07:00  INFO 18848 --- [gateway-service] [restartedMain] com.netflix.discovery.DiscoveryClient    : Force full registry fetch : false
+2025-08-11T13:23:22.393+07:00  INFO 18848 --- [gateway-service] [restartedMain] com.netflix.discovery.DiscoveryClient    : Application is null : false
+2025-08-11T13:23:22.394+07:00  INFO 18848 --- [gateway-service] [restartedMain] com.netflix.discovery.DiscoveryClient    : Registered Applications size is zero : true
+2025-08-11T13:23:22.394+07:00  INFO 18848 --- [gateway-service] [restartedMain] com.netflix.discovery.DiscoveryClient    : Application version is -1: true
+2025-08-11T13:23:22.394+07:00  INFO 18848 --- [gateway-service] [restartedMain] com.netflix.discovery.DiscoveryClient    : Getting all instance registry info from the eureka server
+2025-08-11T13:23:23.046+07:00  INFO 18848 --- [gateway-service] [restartedMain] com.netflix.discovery.DiscoveryClient    : The response status is 200
+2025-08-11T13:23:23.051+07:00  INFO 18848 --- [gateway-service] [restartedMain] com.netflix.discovery.DiscoveryClient    : Starting heartbeat executor: renew interval is: 30
+2025-08-11T13:23:23.055+07:00  INFO 18848 --- [gateway-service] [restartedMain] c.n.discovery.InstanceInfoReplicator     : InstanceInfoReplicator onDemand update allowed rate per min is 4
+2025-08-11T13:23:23.056+07:00  INFO 18848 --- [gateway-service] [restartedMain] com.netflix.discovery.DiscoveryClient    : Discovery Client initialized at timestamp 1754893403056 with initial instances count: 3
+2025-08-11T13:23:23.061+07:00  INFO 18848 --- [gateway-service] [restartedMain] o.s.c.n.e.s.EurekaServiceRegistry        : Registering application GATEWAY-SERVICE with eureka with status UP
+2025-08-11T13:23:23.061+07:00  INFO 18848 --- [gateway-service] [restartedMain] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1754893403061, current=UP, previous=STARTING]
+2025-08-11T13:23:23.064+07:00  INFO 18848 --- [gateway-service] [DiscoveryClient-InstanceInfoReplicator-%d] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_GATEWAY-SERVICE/LCSKVM09892.corp.lgcns.com:gateway-service:8080: registering service...
+2025-08-11T13:23:23.133+07:00  INFO 18848 --- [gateway-service] [DiscoveryClient-InstanceInfoReplicator-%d] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_GATEWAY-SERVICE/LCSKVM09892.corp.lgcns.com:gateway-service:8080 - registration status: 204
+2025-08-11T13:23:23.336+07:00  INFO 18848 --- [gateway-service] [restartedMain] o.s.b.web.embedded.netty.NettyWebServer  : Netty started on port 8080 (http)
+2025-08-11T13:23:23.338+07:00  INFO 18848 --- [gateway-service] [restartedMain] .s.c.n.e.s.EurekaAutoServiceRegistration : Updating port to 8080
+2025-08-11T13:23:23.363+07:00  INFO 18848 --- [gateway-service] [restartedMain] com.lgcns.gateway.GatewayApplication     : Started GatewayApplication in 7.996 seconds (process running for 10.457)
+2025-08-11T13:26:56.475+07:00  INFO 18848 --- [gateway-service] [SpringApplicationShutdownHook] o.s.c.n.e.s.EurekaServiceRegistry        : Unregistering application GATEWAY-SERVICE with eureka with status DOWN
+2025-08-11T13:26:56.475+07:00  INFO 18848 --- [gateway-service] [SpringApplicationShutdownHook] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1754893616475, current=DOWN, previous=UP]
+2025-08-11T13:26:56.476+07:00  INFO 18848 --- [gateway-service] [DiscoveryClient-InstanceInfoReplicator-%d] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_GATEWAY-SERVICE/LCSKVM09892.corp.lgcns.com:gateway-service:8080: registering service...
+2025-08-11T13:26:56.479+07:00  INFO 18848 --- [gateway-service] [SpringApplicationShutdownHook] o.s.b.w.embedded.netty.GracefulShutdown  : Commencing graceful shutdown. Waiting for active requests to complete
+2025-08-11T13:26:56.483+07:00  INFO 18848 --- [gateway-service] [DiscoveryClient-InstanceInfoReplicator-%d] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_GATEWAY-SERVICE/LCSKVM09892.corp.lgcns.com:gateway-service:8080 - registration status: 204
+2025-08-11T13:26:56.485+07:00  INFO 18848 --- [gateway-service] [netty-shutdown] o.s.b.w.embedded.netty.GracefulShutdown  : Graceful shutdown complete
+2025-08-11T13:26:56.512+07:00  INFO 18848 --- [gateway-service] [SpringApplicationShutdownHook] com.netflix.discovery.DiscoveryClient    : Shutting down DiscoveryClient ...
+2025-08-11T13:26:59.517+07:00  INFO 18848 --- [gateway-service] [SpringApplicationShutdownHook] com.netflix.discovery.DiscoveryClient    : Unregistering ...
+2025-08-11T13:26:59.525+07:00  INFO 18848 --- [gateway-service] [SpringApplicationShutdownHook] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_GATEWAY-SERVICE/LCSKVM09892.corp.lgcns.com:gateway-service:8080 - deregister  status: 200
+2025-08-11T13:26:59.526+07:00  INFO 18848 --- [gateway-service] [SpringApplicationShutdownHook] com.netflix.discovery.DiscoveryClient    : Completed shut down of DiscoveryClient

@@ -1,0 +1,8 @@
+CREATE DATABASE IF NOT EXISTS account;
+CREATE DATABASE IF NOT EXISTS statistic;
+CREATE DATABASE IF NOT EXISTS notification;
+
+GRANT ALL PRIVILEGES ON account.* TO 'admin'@'%';
+GRANT ALL PRIVILEGES ON statistic.* TO 'admin'@'%';
+GRANT ALL PRIVILEGES ON notification.* TO 'admin'@'%';
+FLUSH PRIVILEGES;

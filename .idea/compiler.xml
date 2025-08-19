@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Annotation profile for study_micros" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="false">
+          <entry name="$MAVEN_REPOSITORY$/org/projectlombok/lombok/1.18.38/lombok-1.18.38.jar" />
+        </processorPath>
+        <module name="notification" />
+        <module name="config-server" />
+        <module name="monitoradmin" />
+        <module name="discoveryconfig" />
+        <module name="study_micros" />
+        <module name="gateway" />
+        <module name="statistics" />
+      </profile>
+    </annotationProcessing>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="config-server" options="-parameters" />
+      <module name="discoveryconfig" options="-parameters" />
+      <module name="gateway" options="-parameters" />
+      <module name="monitoradmin" options="-parameters" />
+      <module name="notification" options="-parameters" />
+      <module name="statistics" options="-parameters" />
+      <module name="study_micros" options="-parameters" />
+    </option>
+  </component>
+</project>
